@@ -57,12 +57,12 @@ padding: 46px 0;
 margin: 0 auto;
 }
 .hbetween-icon{
-    --line-height:26px ;
+    --line-height:38px ;
     display: block;
     background-color: var(--color-white);
     border: 1px solid #13181c;
     border-radius: 3px;
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     text-align: center;
     line-height:var(--line-height);
     width:var(--line-height);
