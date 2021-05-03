@@ -1,0 +1,147 @@
+/* tablet and mobile */
+@media (max-width: 1023px) {
+  .hide-on__tablet-mobile {
+    display: none;
+  }
+  .display-on__tablet-mobile{
+    display: block;
+  }
+  /* header */
+  .hbetween-img {
+    order: 3;
+    margin-top: 20px;
+  }
+  .hbetween-img img {
+    width: 100%;
+  }
+  .hbetween-logo {
+    display: flex;
+  }
+  #header-between {
+    padding-bottom: 0;
+  }
+  
+  /* header navbar tren tablet mobile */
+  .navbar {
+    background-color: transparent;
+  }
+  .navbar-lists {
+    display: block;
+    height: 0;
+   overflow: hidden;
+    transition: all 0.4s;
+  }
+ #check-navbar:checked ~ .navbar-lists{
+   height: 33.8rem;
+   overflow:visible;
+ }
+  .navbar-item__link {
+    color: var(--color-black);
+    padding: 15px 0;
+    display: block;
+  }
+  .navbar-item__link span {
+    display: none;
+  }
+  .navbar-item__icon {
+    padding: 0;
+    transform: rotate(-90deg);
+    transition: all 0.4s;
+  }
+  #check-arrow:checked ~ .navbar-item__icon {
+    transform: rotate(0);
+  }
+  /* o search */
+  .search-btn:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+  }
+  /* menu 2 */
+.navbar-item:hover .navbar-menu2{
+      display: none;
+  } 
+/* health and world */
+.health-world__right{
+  margin-top: 4.4rem;
+}
+.board-content-item__content{
+  margin-left: 16px;
+}
+/* board-content */
+.board-content{
+  margin-bottom: 3rem;
+}
+/* lastest */
+/* form subcribe */
+.form-sub__button{
+text-align: center;    
+}
+.form-sub__btn-item{
+  width: 100%;
+}
+
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .hide-on__tablet {
+    display: none;
+  }
+  /* header */
+  .hbetween-social {
+    font-size: 1.7rem;
+  }
+  .hbetween-social a > i {
+    padding: 0 12px;
+  }
+  .slider-two-home{
+    padding-top: 65%;
+  }
+}
+/* mobile */
+@media (max-width: 739px) {
+  .hide-on__mobile {
+    display: none;
+  }
+  /* header */
+  /* an icon social */
+  .hbetween-social a {
+    display: none;
+      }
+      .header-logo__text-large{
+          font-size: 3.7rem;
+          margin: 0 auto;
+      }
+      /* thanh search hien thi tren mobile */
+      .hbetween-social-lists {
+          margin-top: 25px;
+      }
+      .search-btn{
+          font-size: 2.5rem;
+      }
+      .btn-header {
+display: block;
+width: 76vw;
+margin: 4px 18px 0 0;
+
+}
+.board-contents-wrap{
+  margin: 0 10px;
+}
+/* text slider */
+.slider-text__large{
+  font-size: 2.2rem;
+}
+/* heatld and world */
+.category-athur-date{
+ display: block;
+}
+.slider-two-home{
+  padding-top: 85%;
+}
+/* footer */
+.footer-below{
+  flex-direction: column;
+  align-items: center;
+  line-height: 3rem;
+}
+}
