@@ -30,7 +30,11 @@
     height: 0;
    overflow: hidden;
    will-change:auto;
-    transition: all 0.4s linear;
+   transform-origin: top;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all  0.3s linear;
+    
   }
  #check-navbar:checked ~ .navbar-lists{
    height: 33.8rem;
