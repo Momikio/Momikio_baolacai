@@ -49,6 +49,9 @@ html{
     font-weight: 300;
     scroll-behavior: smooth;
 }
+body a{
+    -webkit-tap-highlight-color: rgba(0 , 0 ,0 ,0.05);
+}
 .board-content__horizontal {
     margin-bottom: 30px;
 }
@@ -443,9 +446,11 @@ display: flex;
 .category-cart__link{
 text-decoration: none;
 width: 100%;
+-webkit-tap-highlight-color: transparent;
 }
 .category-cart__link--center{
     margin: 0 auto;
+    -webkit-tap-highlight-color: transparent;
 }
 .category-cart__button{
     color: var(--color-white);

@@ -83,6 +83,7 @@ font-size: var(--font-36);
 font-weight: 700;
 text-decoration: none;
 color: var(--color-black);
+-webkit-tap-highlight-color: transparent;
 }
 .header-logo__text-medium{
 font-size: var(--font-15);
@@ -178,8 +179,7 @@ position: relative;
 }
 .navbar-lists{
     width:800px;
-    height: 100%;
-  
+    height: 100%; 
 list-style: none;
 display: flex;
 justify-content: center ;
