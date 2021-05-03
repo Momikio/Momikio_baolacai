@@ -28,7 +28,7 @@
   .navbar-lists {
     display: block;
     height: 0;
-   overflow: hidden;
+   overflow-y: hidden;
    will-change:auto;
    transform-origin: top;
     transition: all 0.3s linear;
@@ -38,7 +38,7 @@
   }
  #check-navbar:checked ~ .navbar-lists{
    height: 33.8rem;
-   overflow:visible;
+   overflow-y:visible;
  }
   .navbar-item__link {
     color: var(--color-black);
